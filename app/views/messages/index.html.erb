@@ -5,7 +5,16 @@
   </div>
   <%= f.submit nil, class:"btn btn-primary" %>
 <% end %>
-<div class="jmessages list-group">
+<hr>
+<form id="js-socket">
+  <label>
+    <input type="text" placeholder="Type something..." />
+    WebSocket Style
+  </label>
+</form>
+<hr>
 
+
+<div class="jmessages list-group">
   <%= render @messages %>
 </div>
