@@ -1,1 +1,8 @@
+<%= form_for Message.new do |f| %>
+  <div class="form-group">
+    <%= f.label :body %>
+    <%= f.text_field :body, class:"form-control" %>
+  </div>
+  <%= f.submit nil, class:"btn btn-primary" %>
+<% end %>
 <%= render @messages %>
