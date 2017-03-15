@@ -7,7 +7,7 @@
 - [x] Set up a new rails project named `lab5` using PostgreSQL. Git init, git commit and git push to your pair's repo.
 - [x] Generate a `Message` resource with a `body` string column. Add validation. Implement `/messages` to display all messages (newest first).
 - [x] Set up root path to `HomeController#index`. Inside it, redirect visitors to `messages_path`.
-- [ ] On `/messages`, refactor the view to use `render @messages` and implement `_message.html.erb` partial. Your generated HTML should look like this:
+- [x] On `/messages`, refactor the view to use `render @messages` and implement `_message.html.erb` partial. Your generated HTML should look like this:
 
   ```erb
   <div class="messages">
